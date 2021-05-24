@@ -444,6 +444,8 @@ blockquote span {
 }
 .contact-bottom {
   margin-top: 50px !important;
+}
+.contact-form {
   float: left;
 }
 .form input[type="text"],

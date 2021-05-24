@@ -112,12 +112,14 @@
                 </div>
 
                 <div class = "contact-bottom">
-                    <form class = "form">
-                        <input type = "text" placeholder="Your Name">
-                        <input type = "email" placeholder="Your Email">
-                        <input type = "text" placeholder="Subject">
-                        <textarea rows = "9" placeholder="Message"></textarea>
-                        <input type = "submit" class = "btn" value = "Send Message">
+                    <h2 class="section-title section-title--about">Get Ahold of Me</h2>
+                    <form action="POST" data-netlify="true" class="contact-form" method="POST">
+                      <p class="contact--item">Name:</p><input type="text" name="name" placeholder="Name">
+                      <p class="contact--item">Email:</p><input type="email" name="email" placeholder="Email">
+                      <p class="contact--item">Subject:</p><input type="text" name="subject" placeholder="Subject">
+                      <p class="contact--item">Message:</p><textarea name="message" id="message" cols="60" rows="7" placeholder="Message"></textarea>
+                      <div class="recaptcha" data-netlify-recaptcha="true"></div>
+                      <br><button type="submit" name="Submit" class="contact-btn">SEND MAIL</button>
                     </form>
 
                     <!-- Map -->

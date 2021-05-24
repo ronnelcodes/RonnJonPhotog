@@ -473,8 +473,8 @@ blockquote span {
   padding: 40px 0;
   text-align: center;
 }
-.footer-container > div {
-  margin: 40px 0;
+/*.footer-container > div {
+  margin: 40px 0; */
 }
 .footer-container h2 {
   color: var(--lightGreen);
